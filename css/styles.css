@@ -1,0 +1,173 @@
+body {
+  color: black;
+}
+
+#title {
+  background-color: #ff4c68;
+}
+
+/* navgation bar */
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+
+.navbar {
+  padding-bottom: 3.5rem;
+}
+.nav-link {
+  font-size: 1.5rem;
+}
+
+/* title */
+
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+.title-img {
+  width: 18%;
+  transform: rotate(23deg);
+  position: absolute;
+  right: 23%;
+}
+/* features page */
+
+#features {
+  background-color: #fff;
+  padding: 13% 11%;
+  text-align: center;
+  position: relative;
+}
+p {
+  color: #8f8f8f;
+  font-size: 20px;
+}
+
+h1 {
+  font-family: "Montserrat";
+  color: #fff;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3 {
+  font-family: "Montserrat";
+  font-weight: 400;
+
+}
+.icon {
+  padding-bottom: 1rem;
+  color: #ef8172;
+}
+.icon:hover {
+  color: red;
+}
+
+/* testimonials page */
+
+#testimonials {
+  background-color: #ef8172;
+
+  text-align: center;
+  color: #fff;
+}
+.testimonials-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 25px;
+}
+
+/* press and logo */
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+}
+
+.press-logo {
+  width: 14%;
+  padding-bottom: 70px;
+  margin: 30px 30px 30px;
+}
+
+.carousel-item {
+  padding: 12% 12%;
+}
+
+/* pricing section */
+
+#pricing {
+  text-align: center;
+  padding: 100px;
+}
+.pricing-column {
+  padding: 4% 2%;
+}
+
+#cta{
+  background-color:#ff4c68;
+  color: #fff;
+  text-align: center;
+  padding:6% 8% ;
+  
+}
+
+.cta-h3{
+  font-size: 3.5rem;
+  font-weight: 900;
+  padding-top: 50px;
+}
+
+.cta-btn {
+  margin-right: 18px;
+}
+
+#footer{
+  padding: 6% 8%;
+  text-align: center;
+}
+
+.footer-icn{
+  margin: 20px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:992px)  {
+   #title{
+text-align: center;
+  } 
+    
+  .title-img
+  {
+    position: static;
+    width: 50%;
+    transform: rotate(0);
+  }
+}
+   
+
